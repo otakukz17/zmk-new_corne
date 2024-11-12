@@ -41,13 +41,13 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - PLAY PAUSE
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
+  - LGUI
+  - lower
   - {t: '$$mdi:keyboard-space$$', h: '3'}
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-return$$', h: '3'}
-  - lower
   - raise
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   lower:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -91,11 +91,11 @@ layers:
   - PG DN
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - INS
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   raise:
@@ -144,8 +144,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
